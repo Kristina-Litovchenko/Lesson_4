@@ -1,0 +1,107 @@
+/* Підключення шрифтів*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@font-face{
+	font-family: "Lato" ;
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"),url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Lato" ;
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"),url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato" ;
+	src: url("../fonts/Lato-Black.woff2") format("woff2"),url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Larsseit" ;
+	src: url("../fonts/Larsseit.woff2") format("woff2"),url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Larsseit" ;
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"),url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Larsseit" ;
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"),url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+body{
+	font-family: "Roboto";
+}
+.header-title {
+	color: red;
+	font-family:"Lato" ;	
+}
+.menu-list li{
+	color: blue;
+}
+.presents{
+	color: orangered;
+	font-family: "Lato";
+}
+.words{
+	color: cornflowerblue;
+	font-family:"Lato" ;
+}
+.words p{
+	color: green;
+}
+.lucky{
+	color: blueviolet;
+}
+.touches-hugs{
+	color: pink;
+	font-family: "Lato";
+}
+/* .text p{
+	color: crimson;
+} */
+.acts{
+	color: crimson;
+	font-family: "Lato";
+}
+.acts p{
+	color: chartreuse;
+}
+p.content{
+	color: darkblue;
+}
+p.main{
+	color: red;
+}
+.time{
+	color: darkgreen;
+	font-family:"Lato" ;
+}
+.time-love{
+	color: crimson;
+}
+.footer-text{
+	color: darkorchid;
+}
+.footer-text ~p{
+	color: chartreuse;
+}
+.link{
+	color: blue;
+}
+
